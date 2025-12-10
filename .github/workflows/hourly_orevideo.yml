@@ -71,7 +71,7 @@ jobs:
           GOFILE_PRIORITY_MAX_PAGE: 10 # page1〜10 を「新しい順」として優先
 
           # 投稿件数
-          WANT_POST: 5                 # 1runでツイートしたい件数
+          WANT_POST: 3                 # 1runでツイートしたい件数
           MIN_POST: 3                  # これ未満なら「ツイートしない」
 
           USE_API_TIMELINE: 0          # 0 のままでOK（TL確認オフ）
