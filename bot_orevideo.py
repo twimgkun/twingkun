@@ -20,7 +20,12 @@ from google.oauth2.service_account import Credentials
 
 AFFILIATE_URL = "https://www.effectivegatecpm.com/ra1dctjqd?key=7386f2c3cdf8ea912bbf6b2ab000fd44"
 STATE_FILE = "state.json"
-DAILY_LIMIT = 16
+
+# 1日の投稿上限（コミュニティ3回・通常13回）
+DAILY_COMMUNITY_LIMIT = 3
+DAILY_NORMAL_LIMIT = 13
+DAILY_LIMIT = DAILY_COMMUNITY_LIMIT + DAILY_NORMAL_LIMIT  # 互換用（=16）
+
 JST = tz.gettz("Asia/Tokyo")
 TWEET_LIMIT = 280
 TCO_URL_LEN = 23
@@ -38,8 +43,15 @@ HARD_LIMIT_SEC = _env_int("HARD_LIMIT_SEC", 600)
 USE_API_TIMELINE = _env_int("USE_API_TIMELINE", 0)
 
 def _default_state():
-    return {"posted_urls": [], "last_post_date": None, "posts_today": 0,
-            "recent_urls_24h": [], "line_seq": 1}
+    return {
+        "posted_urls": [],
+        "last_post_date": None,
+        "posts_today": 0,
+        "community_posts_today": 0,
+        "normal_posts_today": 0,
+        "recent_urls_24h": [],
+        "line_seq": 1,
+    }
 
 def load_state():
     if not os.path.exists(STATE_FILE): return _default_state()
@@ -61,6 +73,8 @@ def reset_if_new_day(state, now_jst):
     if state.get("last_post_date") != today:
         state["last_post_date"] = today
         state["posts_today"] = 0
+        state["community_posts_today"] = 0
+        state["normal_posts_today"] = 0
 
 def purge_recent_12h(state, now_utc):
     cutoff = now_utc - timedelta(hours=12)
@@ -89,12 +103,16 @@ def estimate_tweet_len_tco(text: str) -> int:
     return len(re.sub(r"https?://\S+", repl, text))
 
 def compose_fixed5_text(gofile_urls, start_seq: int, salt_idx: int = 0, add_sig: bool = True):
+    """
+    gofile_urls を番号付きで並べる。
+    以前は行間に AFFILIATE_URL を挟んでいたが、現在はURLのみ。
+    """
     invis = INVISIBLES[salt_idx % len(INVISIBLES)]
     lines, seq = [], start_seq
     take = min(WANT_POST, len(gofile_urls))
     for i, u in enumerate(gofile_urls[:take]):
         lines.append(f"{seq}{invis}. {u}")
-        if i < take - 1: lines.append(AFFILIATE_URL)
+        # 間に AFFILIATE_URL を挟む行は廃止
         seq += 1
     text = "\n".join(lines)
     if add_sig:
@@ -120,10 +138,13 @@ def fetch_recent_urls_via_web(username: str, scrolls: int = 1, wait_ms: int = 80
     seen = set()
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True, args=["--no-sandbox"])
-        ctx = browser.new_context(user_agent=(
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-            "(KHTML, like Gecko) Chrome/123.0.0.0 Safari/123.0.0.0"),
-            locale="ja-JP")
+        ctx = browser.new_context(
+            user_agent=(
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                "(KHTML, like Gecko) Chrome/123.0.0.0 Safari/123.0.0.0"
+            ),
+            locale="ja-JP"
+        )
         page = ctx.new_page()
         page.goto(url, wait_until="domcontentloaded", timeout=20000)
         page.wait_for_timeout(wait_ms)
@@ -286,8 +307,16 @@ def main():
     purge_recent_12h(state, now_utc)
     reset_if_new_day(state, now_jst)
 
-    if state.get("posts_today", 0) >= DAILY_LIMIT:
-        print("Daily limit reached; skip."); return
+    # 1日の投稿カウント
+    community_posts_today = state.get("community_posts_today", 0)
+    normal_posts_today = state.get("normal_posts_today", 0)
+    posts_today = community_posts_today + normal_posts_today
+    state["posts_today"] = posts_today  # 互換用
+
+    # 両方いっぱいならその日は終了
+    if community_posts_today >= DAILY_COMMUNITY_LIMIT and normal_posts_today >= DAILY_NORMAL_LIMIT:
+        print("Daily limit reached; skip.")
+        return
 
     already_seen = build_seen_set_from_state(state)
 
@@ -308,7 +337,8 @@ def main():
         print("[info] timeline check skipped (USE_API_TIMELINE=0)")
 
     if (time.monotonic() - start_ts) > HARD_LIMIT_SEC:
-        print("[warn] time budget exceeded before collection; abort."); return
+        print("[warn] time budget exceeded before collection; abort.")
+        return
 
     # 1) まずは Google スプレッドシートから URL を優先的に取得
     sheet_entries = fetch_sheet_urls(WANT_POST)
@@ -359,10 +389,22 @@ def main():
     community_id = os.getenv("X_COMMUNITY_ID", "").strip()
     client = get_client()
 
-    tweet_id = None
+    # コミュニティポストを行うかどうか判定（JST 8, 15, 20時 & 上限未達 & community_idあり）
+    is_community_time = now_jst.hour in (8, 15, 20)
+    mode = "normal"
+    if community_id and is_community_time and community_posts_today < DAILY_COMMUNITY_LIMIT:
+        mode = "community"
 
-    if community_id:
-        # 1) コミュニティに投稿（失敗しても落ちずに通常ツイートへフォールバック）
+    # 通常ポストの上限チェック（コミュニティ時間でない場合、かつ通常上限ならスキップ）
+    if mode == "normal" and normal_posts_today >= DAILY_NORMAL_LIMIT:
+        print("Normal post daily limit reached; skip.")
+        return
+
+    tweet_id = None
+    posted = False
+
+    if mode == "community":
+        # 1) コミュニティに投稿（成功すればそれで終わり / 失敗時は通常ツイートにフォールバック）
         comm_id = None
         try:
             resp_comm = post_to_community_via_undocumented_api(status_text, community_id)
@@ -371,20 +413,32 @@ def main():
         except Exception as e:
             print(f"[warn] community post failed; fallback to normal tweet: {e}")
 
-        # 2) コミュニティ投稿が成功して ID が取れたら引用ツイート、失敗時は通常ポスト
         if comm_id:
-            resp = post_to_x_v2(client, status_text, quote_tweet_id=comm_id)
-            tweet_id = resp.data.get("id") if resp and resp.data else None
-            print(f"[info] tweeted id={tweet_id} (quote community)")
+            # コミュニティポストのみ（引用ツイートはしない）
+            tweet_id = comm_id
+            posted = True
+            community_posts_today += 1
+            print(f"[info] tweeted id={tweet_id} (community only)")
         else:
+            # フォールバック: 通常ツイート
             resp = post_to_x_v2(client, status_text)
             tweet_id = resp.data.get("id") if resp and resp.data else None
-            print(f"[info] tweeted id={tweet_id} (fallback normal)")
+            if tweet_id:
+                posted = True
+                normal_posts_today += 1
+                print(f"[info] tweeted id={tweet_id} (fallback normal)")
     else:
         # 通常ポストのみ
         resp = post_to_x_v2(client, status_text)
         tweet_id = resp.data.get("id") if resp and resp.data else None
-        print(f"[info] tweeted id={tweet_id}")
+        if tweet_id:
+            posted = True
+            normal_posts_today += 1
+            print(f"[info] tweeted id={tweet_id}")
+
+    if not posted:
+        print("[warn] tweet seems not posted; skip state update.")
+        return
 
     # 4) state 更新（投稿に使った URL を記録）
     used_count = min(taken, len(all_urls))
@@ -395,7 +449,11 @@ def main():
             state["posted_urls"].append(u)
         state["recent_urls_24h"].append({"url": u, "ts": now_utc.isoformat()})
 
-    state["posts_today"] = state.get("posts_today", 0) + 1
+    # 投稿カウンタ更新
+    state["community_posts_today"] = community_posts_today
+    state["normal_posts_today"] = normal_posts_today
+    state["posts_today"] = community_posts_today + normal_posts_today
+
     state["line_seq"] = start_seq + used_count
     save_state(state)
 
