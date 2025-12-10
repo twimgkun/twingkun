@@ -1,0 +1,127 @@
+name: Hourly Poster (orevideo)
+
+on:
+  schedule:
+    - cron: "0 21 * * *"
+    - cron: "15 22 * * *"
+    - cron: "30 23 * * *"
+    - cron: "45 0 * * *"
+    - cron: "0 2 * * *"
+    - cron: "15 3 * * *"
+    - cron: "30 4 * * *"
+    - cron: "45 5 * * *"
+    - cron: "0 7 * * *"
+    - cron: "15 8 * * *"
+    - cron: "30 9 * * *"
+    - cron: "45 10 * * *"
+    - cron: "0 12 * * *"
+    - cron: "15 13 * * *"
+    - cron: "30 14 * * *"
+    - cron: "45 16 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ${{ github.workflow }}-orevideo-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    env:
+      BRANCH_NAME: ${{ github.ref_name }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Sync with remote
+        run: |
+          git fetch origin "${BRANCH_NAME}"
+          git pull --rebase origin "${BRANCH_NAME}" || true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Install Playwright browsers (Chromium)
+        run: |
+          python -m playwright install --with-deps chromium
+
+      - name: Run bot (orevideo)
+        id: orevideo
+        timeout-minutes: 10
+        env:
+          # 収集まわり
+          SCRAPE_TIMEOUT_SEC: 240      # orevideo 巡回の締切
+          RAW_LIMIT: 200               # 最大で 200 URL まで候補
+          FILTER_LIMIT: 80             # この中からフィルタ
+          NUM_PAGES: 50                # ?page=1..50 を巡回
+
+          # gofile 選び方（必要なら変えてOK）
+          GOFILE_TARGET: 4             # 1ツイート内で狙う gofile 本数
+          GOFILE_PRIORITY_MAX_PAGE: 10 # page1〜10 を「新しい順」として優先
+
+          # 投稿件数
+          WANT_POST: 5                 # 1runでツイートしたい件数
+          MIN_POST: 3                  # これ未満なら「ツイートしない」
+
+          USE_API_TIMELINE: 0          # 0 のままでOK（TL確認オフ）
+
+          # X(Twitter)
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+          X_SCREEN_NAME: ${{ vars.X_SCREEN_NAME }}
+          X_COMMUNITY_ID: ${{ secrets.X_COMMUNITY_ID }}
+
+          # Google Sheets（スプレッドシート優先ロジック用）
+          GSPREAD_SERVICE_ACCOUNT_JSON: ${{ secrets.GSPREAD_SERVICE_ACCOUNT_JSON }}
+          OREVIDEO_SHEET_URL: ${{ secrets.OREVIDEO_SHEET_URL }}
+          OREVIDEO_SHEET_NAME: ${{ secrets.OREVIDEO_SHEET_NAME }}
+
+        run: |
+          set -e
+          python bot_orevideo.py | tee bot_orevideo.log
+          if grep -q "tweeted id=" bot_orevideo.log; then
+            echo "posted=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "posted=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit state
+        if: always()
+        env:
+          BRANCH_NAME: ${{ github.ref_name }}
+        run: |
+          set -e
+          if [[ ! -f "state.json" ]]; then
+            echo "state.json not found; skip."; exit 0
+          fi
+          if git diff --quiet -- state.json; then
+            echo "state.json unchanged; skip commit."; exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          cp state.json /tmp/state.json.saved
+          git reset --hard
+          git clean -fdx
+          git fetch origin "${BRANCH_NAME}"
+          git checkout "${BRANCH_NAME}"
+          git pull --rebase origin "${BRANCH_NAME}" || true
+          cp /tmp/state.json.saved state.json
+          if git diff --quiet -- state.json; then
+            echo "state.json equal to remote; skip commit."; exit 0
+          fi
+          git add state.json
+          git commit -m "chore: update state $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          git push origin "${BRANCH_NAME}"
