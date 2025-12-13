@@ -1,6 +1,6 @@
 {
   "community_posts_today": 1,
-  "normal_posts_today": 8,
+  "normal_posts_today": 9,
   "posted_urls": [
     "https://video.twimg.com/ext_tw_video/1863902879930843136/pu/vid/avc1/592x1280/34AwdfULdCf39gZZ.mp4",
     "https://video.twimg.com/ext_tw_video/1828040725080203264/pu/vid/avc1/612x1280/-O6li5FdckkXbGiY.mp4",
@@ -125,10 +125,12 @@
     "https://video.twimg.com/ext_tw_video/1440545308400762890/pu/vid/856x482/qMFaGBbKGDpW2wIH.mp4?tag=12",
     "https://video.twimg.com/ext_tw_video/1858350925586345985/pu/vid/avc1/640x1280/Pxr9GYb8xgrjexsz.mp4?tag=12",
     "https://video.twimg.com/ext_tw_video/1838563482914164740/pu/vid/avc1/590x1050/asglvOXpqzY813Ts.mp4?tag=12",
-    "https://video.twimg.com/ext_tw_video/1815007327650713600/pu/vid/avc1/720x1280/-5kTY5ZAwxkouA6U.mp4?tag=12"
+    "https://video.twimg.com/ext_tw_video/1815007327650713600/pu/vid/avc1/720x1280/-5kTY5ZAwxkouA6U.mp4?tag=12",
+    "https://video.twimg.com/ext_tw_video/1804154916828778498/pu/vid/avc1/592x1280/J6FY_HALViFznTWT.mp4?tag=12",
+    "https://video.twimg.com/ext_tw_video/1811104445775892482/pu/vid/avc1/720x1280/zPJjiV3J_V83N8yu.mp4?tag=12"
   ],
   "last_post_date": "2025-12-13",
-  "posts_today": 9,
+  "posts_today": 10,
   "recent_urls_24h": [
     {
       "url": "https://video.twimg.com/ext_tw_video/1458556629436481536/pu/vid/480x270/C2shhV_4uZedVGXZ.mp4?tag=12",
@@ -225,7 +227,19 @@
     {
       "url": "https://video.twimg.com/ext_tw_video/1815007327650713600/pu/vid/avc1/720x1280/-5kTY5ZAwxkouA6U.mp4?tag=12",
       "ts": "2025-12-13T05:52:13.911783+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/ext_tw_video/1804154916828778498/pu/vid/avc1/592x1280/J6FY_HALViFznTWT.mp4?tag=12",
+      "ts": "2025-12-13T07:35:03.204511+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/ext_tw_video/1439586299493507085/pu/vid/1280x720/VRjKGruhyu_owHei.mp4?tag=12",
+      "ts": "2025-12-13T07:35:03.204511+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/ext_tw_video/1811104445775892482/pu/vid/avc1/720x1280/zPJjiV3J_V83N8yu.mp4?tag=12",
+      "ts": "2025-12-13T07:35:03.204511+00:00"
     }
   ],
-  "line_seq": 133
+  "line_seq": 136
 }
