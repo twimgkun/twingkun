@@ -1,6 +1,6 @@
 {
   "community_posts_today": 1,
-  "normal_posts_today": 5,
+  "normal_posts_today": 6,
   "posted_urls": [
     "https://video.twimg.com/ext_tw_video/1863902879930843136/pu/vid/avc1/592x1280/34AwdfULdCf39gZZ.mp4",
     "https://video.twimg.com/ext_tw_video/1828040725080203264/pu/vid/avc1/612x1280/-O6li5FdckkXbGiY.mp4",
@@ -155,10 +155,12 @@
     "https://video.twimg.com/ext_tw_video/1443800043685756929/pu/vid/856x482/CprOW2VFGA1Kxe7Z.mp4?tag=12",
     "https://video.twimg.com/amplify_video/1791637231125643264/vid/avc1/1920x1080/VeXUayjaMPCOMnXr.mp4?tag=16",
     "https://video.twimg.com/amplify_video/1935516187040915456/vid/avc1/674x1280/f5J85511zHK42sql.mp4?tag=14",
-    "https://video.twimg.com/ext_tw_video/1844359625451372545/pu/vid/avc1/384x640/ROF29zlxZJCZCSGl.mp4"
+    "https://video.twimg.com/ext_tw_video/1844359625451372545/pu/vid/avc1/384x640/ROF29zlxZJCZCSGl.mp4",
+    "https://video.twimg.com/amplify_video/1500035310545432577/vid/1280x720/MIEULov_Ce2B98cZ.mp4?tag=14",
+    "https://video.twimg.com/amplify_video/1973804030435450880/vid/avc1/720x1252/L-H9rQNM7DkDFIyd.mp4?tag=14"
   ],
   "last_post_date": "2025-12-14",
-  "posts_today": 6,
+  "posts_today": 7,
   "recent_urls_24h": [
     {
       "url": "https://video.twimg.com/amplify_video/1935515359160774656/vid/avc1/720x1280/issJlFHBAKEza65-.mp4?tag=14",
@@ -231,7 +233,19 @@
     {
       "url": "https://video.twimg.com/ext_tw_video/1845789403022782464/pu/vid/avc1/480x856/TUlRGpBdfZzrE7-I.mp4?tag=12",
       "ts": "2025-12-14T04:23:46.494770+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/amplify_video/1500035310545432577/vid/1280x720/MIEULov_Ce2B98cZ.mp4?tag=14",
+      "ts": "2025-12-14T04:50:50.288650+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/amplify_video/1973804030435450880/vid/avc1/720x1252/L-H9rQNM7DkDFIyd.mp4?tag=14",
+      "ts": "2025-12-14T04:50:50.288650+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/ext_tw_video/1849072096397467648/pu/vid/avc1/646x1280/wwmHiFCShXWFgvko.mp4?tag=12",
+      "ts": "2025-12-14T04:50:50.288650+00:00"
     }
   ],
-  "line_seq": 166
+  "line_seq": 169
 }
