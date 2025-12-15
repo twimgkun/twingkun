@@ -1,6 +1,6 @@
 {
   "community_posts_today": 1,
-  "normal_posts_today": 6,
+  "normal_posts_today": 7,
   "posted_urls": [
     "https://video.twimg.com/ext_tw_video/1863902879930843136/pu/vid/avc1/592x1280/34AwdfULdCf39gZZ.mp4",
     "https://video.twimg.com/ext_tw_video/1828040725080203264/pu/vid/avc1/612x1280/-O6li5FdckkXbGiY.mp4",
@@ -188,10 +188,12 @@
     "https://video.twimg.com/ext_tw_video/1464169254866272256/pu/vid/1280x720/eF6FBLq2N21LOaqT.mp4?tag=12",
     "https://video.twimg.com/ext_tw_video/1439931936651104257/pu/vid/1280x720/xmPX010ygFYgFCh6.mp4?tag=12",
     "https://video.twimg.com/amplify_video/1923816845791969281/vid/avc1/540x960/7lbJvCA1GAkBY61p.mp4?tag=14",
-    "https://video.twimg.com/ext_tw_video/1782087234428289024/pu/vid/avc1/648x1280/tCT1Z0HzHvfZLsJK.mp4?tag=12"
+    "https://video.twimg.com/ext_tw_video/1782087234428289024/pu/vid/avc1/648x1280/tCT1Z0HzHvfZLsJK.mp4?tag=12",
+    "https://video.twimg.com/ext_tw_video/1839301661745152000/pu/vid/avc1/720x1280/AmIIICZTRltiRcVt.mp4?tag=12",
+    "https://video.twimg.com/amplify_video/1502974425624621061/vid/1280x720/562jAFuuIaMTWgIt.mp4?tag=14"
   ],
   "last_post_date": "2025-12-15",
-  "posts_today": 7,
+  "posts_today": 8,
   "recent_urls_24h": [
     {
       "url": "https://video.twimg.com/ext_tw_video/1863902879930843136/pu/vid/avc1/592x1280/34AwdfULdCf39gZZ.mp4?tag=12",
@@ -264,7 +266,19 @@
     {
       "url": "https://video.twimg.com/ext_tw_video/1836013225265242112/pu/vid/avc1/592x1280/dn3MrvefOgA2nPoP.mp4?tag=12",
       "ts": "2025-12-15T04:56:35.509971+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/ext_tw_video/1836384170899312643/pu/vid/avc1/612x1280/4cdLBLZHnSA2vxpZ.mp4?tag=12",
+      "ts": "2025-12-15T05:45:45.048476+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/ext_tw_video/1839301661745152000/pu/vid/avc1/720x1280/AmIIICZTRltiRcVt.mp4?tag=12",
+      "ts": "2025-12-15T05:45:45.048476+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/amplify_video/1502974425624621061/vid/1280x720/562jAFuuIaMTWgIt.mp4?tag=14",
+      "ts": "2025-12-15T05:45:45.048476+00:00"
     }
   ],
-  "line_seq": 211
+  "line_seq": 214
 }
