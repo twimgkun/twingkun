@@ -1,6 +1,6 @@
 {
-  "community_posts_today": 1,
-  "normal_posts_today": 13,
+  "community_posts_today": 0,
+  "normal_posts_today": 1,
   "posted_urls": [
     "https://video.twimg.com/ext_tw_video/1863902879930843136/pu/vid/avc1/592x1280/34AwdfULdCf39gZZ.mp4",
     "https://video.twimg.com/ext_tw_video/1828040725080203264/pu/vid/avc1/612x1280/-O6li5FdckkXbGiY.mp4",
@@ -248,71 +248,14 @@
     "https://gofile.io/d/dKuHAi",
     "https://gofile.io/d/G7QUsp",
     "https://gofile.io/d/pT8xlw",
-    "https://gofile.io/d/LfwMg3"
+    "https://gofile.io/d/LfwMg3",
+    "https://gofile.io/d/HAhfs3",
+    "https://gofile.io/d/mqhiRN",
+    "https://gofile.io/d/R2Aogg"
   ],
-  "last_post_date": "2025-12-16",
-  "posts_today": 14,
+  "last_post_date": "2025-12-17",
+  "posts_today": 1,
   "recent_urls_24h": [
-    {
-      "url": "https://gofile.io/d/fEirnf",
-      "ts": "2025-12-15T23:46:40.144332+00:00"
-    },
-    {
-      "url": "https://gofile.io/d/DeXqaK",
-      "ts": "2025-12-15T23:46:40.144332+00:00"
-    },
-    {
-      "url": "https://gofile.io/d/OWxRHE",
-      "ts": "2025-12-15T23:46:40.144332+00:00"
-    },
-    {
-      "url": "https://gofile.io/d/p2cXsY",
-      "ts": "2025-12-16T04:03:28.926906+00:00"
-    },
-    {
-      "url": "https://gofile.io/d/3KCbf3",
-      "ts": "2025-12-16T04:03:28.926906+00:00"
-    },
-    {
-      "url": "https://gofile.io/d/wX8ufo",
-      "ts": "2025-12-16T04:03:28.926906+00:00"
-    },
-    {
-      "url": "https://gofile.io/d/jUC1v7",
-      "ts": "2025-12-16T04:11:19.466759+00:00"
-    },
-    {
-      "url": "https://gofile.io/d/nmobhq",
-      "ts": "2025-12-16T04:11:19.466759+00:00"
-    },
-    {
-      "url": "https://gofile.io/d/v2iSbz",
-      "ts": "2025-12-16T04:11:19.466759+00:00"
-    },
-    {
-      "url": "https://gofile.io/d/F8rbwC",
-      "ts": "2025-12-16T04:50:55.469346+00:00"
-    },
-    {
-      "url": "https://gofile.io/d/py0DGN",
-      "ts": "2025-12-16T04:50:55.469346+00:00"
-    },
-    {
-      "url": "https://gofile.io/d/rUmQzB",
-      "ts": "2025-12-16T04:50:55.469346+00:00"
-    },
-    {
-      "url": "https://gofile.io/d/BY8BmH",
-      "ts": "2025-12-16T05:02:19.380986+00:00"
-    },
-    {
-      "url": "https://gofile.io/d/pXwVxW",
-      "ts": "2025-12-16T05:02:19.380986+00:00"
-    },
-    {
-      "url": "https://gofile.io/d/HaCwGx",
-      "ts": "2025-12-16T05:02:19.380986+00:00"
-    },
     {
       "url": "https://gofile.io/d/flOIaV",
       "ts": "2025-12-16T05:55:07.117674+00:00"
@@ -372,7 +315,19 @@
     {
       "url": "https://gofile.io/d/LfwMg3",
       "ts": "2025-12-16T10:58:48.232644+00:00"
+    },
+    {
+      "url": "https://gofile.io/d/HAhfs3",
+      "ts": "2025-12-16T17:44:32.667224+00:00"
+    },
+    {
+      "url": "https://gofile.io/d/mqhiRN",
+      "ts": "2025-12-16T17:44:32.667224+00:00"
+    },
+    {
+      "url": "https://gofile.io/d/R2Aogg",
+      "ts": "2025-12-16T17:44:32.667224+00:00"
     }
   ],
-  "line_seq": 277
+  "line_seq": 280
 }
