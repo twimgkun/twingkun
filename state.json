@@ -1,6 +1,6 @@
 {
   "community_posts_today": 1,
-  "normal_posts_today": 3,
+  "normal_posts_today": 4,
   "posted_urls": [
     "https://video.twimg.com/ext_tw_video/1863902879930843136/pu/vid/avc1/592x1280/34AwdfULdCf39gZZ.mp4",
     "https://video.twimg.com/ext_tw_video/1828040725080203264/pu/vid/avc1/612x1280/-O6li5FdckkXbGiY.mp4",
@@ -386,23 +386,14 @@
     "https://gofile.io/d/meqfMN",
     "https://gofile.io/d/4ylGO8",
     "https://gofile.io/d/a9ZhQa",
-    "https://gofile.io/d/MZGHKW"
+    "https://gofile.io/d/MZGHKW",
+    "https://gofile.io/d/IfR98z",
+    "https://gofile.io/d/ASiJd9",
+    "https://gofile.io/d/BdoEVi"
   ],
   "last_post_date": "2025-12-20",
-  "posts_today": 4,
+  "posts_today": 5,
   "recent_urls_24h": [
-    {
-      "url": "https://gofile.io/d/vmhSwT",
-      "ts": "2025-12-19T13:46:59.530557+00:00"
-    },
-    {
-      "url": "https://video.twimg.com/ext_tw_video/1969884507567218689/pu/vid/avc1/720x1280/OiYjD-7-D_yMmybx.mp4?tag=12",
-      "ts": "2025-12-19T13:46:59.530557+00:00"
-    },
-    {
-      "url": "https://video.twimg.com/ext_tw_video/1998467613941506049/pu/vid/avc1/960x720/NAFVUQgPA--otBtV.mp4?tag=12",
-      "ts": "2025-12-19T13:46:59.530557+00:00"
-    },
     {
       "url": "https://gofile.io/d/obLIAd",
       "ts": "2025-12-19T17:00:56.070182+00:00"
@@ -450,7 +441,19 @@
     {
       "url": "https://gofile.io/d/MZGHKW",
       "ts": "2025-12-19T23:44:46.479190+00:00"
+    },
+    {
+      "url": "https://gofile.io/d/IfR98z",
+      "ts": "2025-12-20T03:44:34.379029+00:00"
+    },
+    {
+      "url": "https://gofile.io/d/ASiJd9",
+      "ts": "2025-12-20T03:44:34.379029+00:00"
+    },
+    {
+      "url": "https://gofile.io/d/BdoEVi",
+      "ts": "2025-12-20T03:44:34.379029+00:00"
     }
   ],
-  "line_seq": 415
+  "line_seq": 418
 }
