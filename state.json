@@ -1,6 +1,6 @@
 {
   "community_posts_today": 1,
-  "normal_posts_today": 6,
+  "normal_posts_today": 7,
   "posted_urls": [
     "https://video.twimg.com/ext_tw_video/1863902879930843136/pu/vid/avc1/592x1280/34AwdfULdCf39gZZ.mp4",
     "https://video.twimg.com/ext_tw_video/1828040725080203264/pu/vid/avc1/612x1280/-O6li5FdckkXbGiY.mp4",
@@ -395,10 +395,13 @@
     "https://video.twimg.com/amplify_video/1993630895367147520/vid/avc1/1920x1080/EWYN47sSsKB-pduU.mp4?tag=21",
     "https://video.twimg.com/amplify_video/2001953468358217728/vid/avc1/464x688/ecuVLDZ0_vODQxwb.mp4?tag=23",
     "https://video.twimg.com/amplify_video/2000193527293341696/vid/avc1/1080x1920/qnMCo2KokrEU8dvX.mp4?tag=21",
-    "https://video.twimg.com/amplify_video/1995508122870579200/vid/avc1/1920x1080/_bG6S2hLLyhqkVtt.mp4?tag=21"
+    "https://video.twimg.com/amplify_video/1995508122870579200/vid/avc1/1920x1080/_bG6S2hLLyhqkVtt.mp4?tag=21",
+    "https://gofile.io/d/US8tNc",
+    "https://video.twimg.com/amplify_video/2002027616090587137/vid/avc1/1280x720/Q1CWlB6b6lHDAeOJ.mp4?tag=21",
+    "https://video.twimg.com/amplify_video/2002038941407641601/vid/avc1/480x640/Sc7o-dvjG_4Zs3ML.mp4?tag=23"
   ],
   "last_post_date": "2025-12-20",
-  "posts_today": 7,
+  "posts_today": 8,
   "recent_urls_24h": [
     {
       "url": "https://gofile.io/d/obLIAd",
@@ -483,7 +486,19 @@
     {
       "url": "https://video.twimg.com/amplify_video/1995508122870579200/vid/avc1/1920x1080/_bG6S2hLLyhqkVtt.mp4?tag=21",
       "ts": "2025-12-20T04:04:15.240478+00:00"
+    },
+    {
+      "url": "https://gofile.io/d/US8tNc",
+      "ts": "2025-12-20T04:53:53.635971+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/amplify_video/2002027616090587137/vid/avc1/1280x720/Q1CWlB6b6lHDAeOJ.mp4?tag=21",
+      "ts": "2025-12-20T04:53:53.635971+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/amplify_video/2002038941407641601/vid/avc1/480x640/Sc7o-dvjG_4Zs3ML.mp4?tag=23",
+      "ts": "2025-12-20T04:53:53.635971+00:00"
     }
   ],
-  "line_seq": 424
+  "line_seq": 427
 }
