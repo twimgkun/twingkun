@@ -1,6 +1,6 @@
 {
   "community_posts_today": 1,
-  "normal_posts_today": 8,
+  "normal_posts_today": 9,
   "posted_urls": [
     "https://video.twimg.com/ext_tw_video/1863902879930843136/pu/vid/avc1/592x1280/34AwdfULdCf39gZZ.mp4",
     "https://video.twimg.com/ext_tw_video/1828040725080203264/pu/vid/avc1/612x1280/-O6li5FdckkXbGiY.mp4",
@@ -572,10 +572,13 @@
     "https://video.twimg.com/ext_tw_video/1946527172945997825/pu/vid/avc1/1280x720/59MnTYiJQaNQbaAB.mp4?tag=12",
     "https://video.twimg.com/ext_tw_video/1885644293181722624/pu/vid/avc1/604x1074/R7YtHYarIE2loJvc.mp4?tag=12",
     "https://video.twimg.com/amplify_video/2002409896634191873/vid/avc1/416x752/XKvgwY5TT7uaNB2w.mp4?tag=23",
-    "https://video.twimg.com/amplify_video/2001556218792587264/vid/avc1/720x1280/rflTXD_5bnqc4bsY.mp4?tag=21"
+    "https://video.twimg.com/amplify_video/2001556218792587264/vid/avc1/720x1280/rflTXD_5bnqc4bsY.mp4?tag=21",
+    "https://video.twimg.com/ext_tw_video/1791152753680797698/pu/vid/avc1/720x1264/MYLXOSquKlddHPW6.mp4?tag=12",
+    "https://video.twimg.com/amplify_video/2003439823940616192/vid/avc1/464x688/dqoPa6WTGq8OOztF.mp4?tag=23",
+    "https://video.twimg.com/amplify_video/2002770874576076800/vid/avc1/464x688/WZDCGe3io2x7so2s.mp4?tag=23"
   ],
   "last_post_date": "2025-12-24",
-  "posts_today": 9,
+  "posts_today": 10,
   "recent_urls_24h": [
     {
       "url": "https://gofile.io/d/lZ0geo",
@@ -672,7 +675,19 @@
     {
       "url": "https://video.twimg.com/amplify_video/2001556218792587264/vid/avc1/720x1280/rflTXD_5bnqc4bsY.mp4?tag=21",
       "ts": "2025-12-24T05:56:42.314109+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/ext_tw_video/1791152753680797698/pu/vid/avc1/720x1264/MYLXOSquKlddHPW6.mp4?tag=12",
+      "ts": "2025-12-24T07:42:45.288410+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/amplify_video/2003439823940616192/vid/avc1/464x688/dqoPa6WTGq8OOztF.mp4?tag=23",
+      "ts": "2025-12-24T07:42:45.288410+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/amplify_video/2002770874576076800/vid/avc1/464x688/WZDCGe3io2x7so2s.mp4?tag=23",
+      "ts": "2025-12-24T07:42:45.288410+00:00"
     }
   ],
-  "line_seq": 601
+  "line_seq": 604
 }
