@@ -1,6 +1,6 @@
 {
   "community_posts_today": 1,
-  "normal_posts_today": 4,
+  "normal_posts_today": 5,
   "posted_urls": [
     "https://video.twimg.com/ext_tw_video/1863902879930843136/pu/vid/avc1/592x1280/34AwdfULdCf39gZZ.mp4",
     "https://video.twimg.com/ext_tw_video/1828040725080203264/pu/vid/avc1/612x1280/-O6li5FdckkXbGiY.mp4",
@@ -602,10 +602,13 @@
     "https://video.twimg.com/ext_tw_video/2003844183099133952/pu/vid/avc1/720x1046/Ka5Sg65jLgQhXa7G.mp4?tag=12",
     "https://gofile.io/d/MYK2vx",
     "https://video.twimg.com/ext_tw_video/1541424218738282496/pu/vid/720x1280/kPuIv2mw9dsl6Nib.mp4?tag=12",
-    "https://video.twimg.com/ext_tw_video/1612449530473242625/pu/vid/720x1280/7O8ZD14SCMvHpZou.mp4?tag=12"
+    "https://video.twimg.com/ext_tw_video/1612449530473242625/pu/vid/720x1280/7O8ZD14SCMvHpZou.mp4?tag=12",
+    "https://video.twimg.com/amplify_video/2002025449145466880/vid/avc1/404x720/W_ca1OBJbuvQ9gLN.mp4?tag=14",
+    "https://video.twimg.com/amplify_video/2003936838814187520/vid/avc1/1080x1080/6VZj3dYMxzGfUClL.mp4?tag=21",
+    "https://video.twimg.com/amplify_video/2003461505103331329/vid/avc1/720x1280/PR1D59vW-3c8HzZX.mp4?tag=14"
   ],
   "last_post_date": "2025-12-25",
-  "posts_today": 5,
+  "posts_today": 6,
   "recent_urls_24h": [
     {
       "url": "https://gofile.io/d/idTEaX",
@@ -666,7 +669,19 @@
     {
       "url": "https://video.twimg.com/ext_tw_video/1612449530473242625/pu/vid/720x1280/7O8ZD14SCMvHpZou.mp4?tag=12",
       "ts": "2025-12-25T04:06:27.007318+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/amplify_video/2002025449145466880/vid/avc1/404x720/W_ca1OBJbuvQ9gLN.mp4?tag=14",
+      "ts": "2025-12-25T04:24:18.560641+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/amplify_video/2003936838814187520/vid/avc1/1080x1080/6VZj3dYMxzGfUClL.mp4?tag=21",
+      "ts": "2025-12-25T04:24:18.560641+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/amplify_video/2003461505103331329/vid/avc1/720x1280/PR1D59vW-3c8HzZX.mp4?tag=14",
+      "ts": "2025-12-25T04:24:18.560641+00:00"
     }
   ],
-  "line_seq": 631
+  "line_seq": 634
 }
