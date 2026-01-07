@@ -1,6 +1,6 @@
 {
   "community_posts_today": 0,
-  "normal_posts_today": 7,
+  "normal_posts_today": 8,
   "posted_urls": [
     "https://video.twimg.com/ext_tw_video/1863902879930843136/pu/vid/avc1/592x1280/34AwdfULdCf39gZZ.mp4",
     "https://video.twimg.com/ext_tw_video/1828040725080203264/pu/vid/avc1/612x1280/-O6li5FdckkXbGiY.mp4",
@@ -959,10 +959,13 @@
     "https://video.twimg.com/amplify_video/2008502222435364864/vid/avc1/1920x1080/1i2sA3x6VqPqi5xT.mp4?tag=21",
     "https://video.twimg.com/amplify_video/2008797583515463680/vid/avc1/560x848/X6-Mvja_N5kbR3l1.mp4?tag=14",
     "https://video.twimg.com/ext_tw_video/1483602597345132545/pu/vid/1280x720/i6uvemzprl0wc4jb.mp4?tag=12",
-    "https://video.twimg.com/amplify_video/2008503542949060608/vid/avc1/1920x1080/3Q1v_tlWXDSboPA4.mp4?tag=21"
+    "https://video.twimg.com/amplify_video/2008503542949060608/vid/avc1/1920x1080/3Q1v_tlWXDSboPA4.mp4?tag=21",
+    "https://video.twimg.com/amplify_video/1992845440627396608/vid/avc1/720x1172/1eBkbd9rGLxcj_N3.mp4?tag=21",
+    "https://video.twimg.com/amplify_video/1997289903919710208/vid/avc1/720x1270/VuhwUk8UiXW7ZPGD.mp4?tag=21",
+    "https://video.twimg.com/amplify_video/2008130186722811906/vid/avc1/720x1310/SDWYBir-q38FS6qH.mp4?tag=21"
   ],
   "last_post_date": "2026-01-07",
-  "posts_today": 7,
+  "posts_today": 8,
   "recent_urls_24h": [
     {
       "url": "https://gofile.io/d/44oIBu",
@@ -1047,7 +1050,19 @@
     {
       "url": "https://video.twimg.com/amplify_video/2008503542949060608/vid/avc1/1920x1080/3Q1v_tlWXDSboPA4.mp4?tag=21",
       "ts": "2026-01-07T09:57:15.907608+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/amplify_video/1992845440627396608/vid/avc1/720x1172/1eBkbd9rGLxcj_N3.mp4?tag=21",
+      "ts": "2026-01-07T10:59:15.246497+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/amplify_video/1997289903919710208/vid/avc1/720x1270/VuhwUk8UiXW7ZPGD.mp4?tag=21",
+      "ts": "2026-01-07T10:59:15.246497+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/amplify_video/2008130186722811906/vid/avc1/720x1310/SDWYBir-q38FS6qH.mp4?tag=21",
+      "ts": "2026-01-07T10:59:15.246497+00:00"
     }
   ],
-  "line_seq": 988
+  "line_seq": 991
 }
