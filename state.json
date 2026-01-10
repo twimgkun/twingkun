@@ -1,6 +1,6 @@
 {
   "community_posts_today": 1,
-  "normal_posts_today": 3,
+  "normal_posts_today": 4,
   "posted_urls": [
     "https://video.twimg.com/ext_tw_video/1863902879930843136/pu/vid/avc1/592x1280/34AwdfULdCf39gZZ.mp4",
     "https://video.twimg.com/ext_tw_video/1828040725080203264/pu/vid/avc1/612x1280/-O6li5FdckkXbGiY.mp4",
@@ -1067,10 +1067,13 @@
     "https://video.twimg.com/ext_tw_video/2009749107850596352/pu/vid/avc1/464x848/rpVG8TR3GeARqPBg.mp4?tag=12",
     "https://video.twimg.com/amplify_video/1984509015544774656/vid/avc1/1080x1920/dFynqQ5vyoD9FmLb.mp4?tag=21",
     "https://video.twimg.com/amplify_video/1790017133692551169/vid/avc1/1280x720/8vw_K2C854zbjshL.mp4?tag=14",
-    "https://video.twimg.com/amplify_video/2008207803002028033/vid/avc1/1920x1080/STx3RzAa5Qx8HoK8.mp4?tag=21"
+    "https://video.twimg.com/amplify_video/2008207803002028033/vid/avc1/1920x1080/STx3RzAa5Qx8HoK8.mp4?tag=21",
+    "https://video.twimg.com/ext_tw_video/2009548902140432385/pu/vid/avc1/480x600/4USPDpWj3_CpNcbT.mp4?tag=19",
+    "https://video.twimg.com/amplify_video/1805100401697710080/vid/avc1/1920x1080/X6B-2tzgQ0ilwQ53.mp4?tag=16",
+    "https://video.twimg.com/amplify_video/1805450408510504960/vid/avc1/1920x1080/DJgKann1qD8xgigb.mp4?tag=16"
   ],
   "last_post_date": "2026-01-10",
-  "posts_today": 4,
+  "posts_today": 5,
   "recent_urls_24h": [
     {
       "url": "https://gofile.io/d/MLH7cU",
@@ -1119,7 +1122,19 @@
     {
       "url": "https://video.twimg.com/amplify_video/2008207803002028033/vid/avc1/1920x1080/STx3RzAa5Qx8HoK8.mp4?tag=21",
       "ts": "2026-01-09T23:47:28.293005+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/ext_tw_video/2009548902140432385/pu/vid/avc1/480x600/4USPDpWj3_CpNcbT.mp4?tag=19",
+      "ts": "2026-01-10T04:02:30.350394+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/amplify_video/1805100401697710080/vid/avc1/1920x1080/X6B-2tzgQ0ilwQ53.mp4?tag=16",
+      "ts": "2026-01-10T04:02:30.350394+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/amplify_video/1805450408510504960/vid/avc1/1920x1080/DJgKann1qD8xgigb.mp4?tag=16",
+      "ts": "2026-01-10T04:02:30.350394+00:00"
     }
   ],
-  "line_seq": 1096
+  "line_seq": 1099
 }
