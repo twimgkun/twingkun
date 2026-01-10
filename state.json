@@ -1,6 +1,6 @@
 {
   "community_posts_today": 1,
-  "normal_posts_today": 12,
+  "normal_posts_today": 13,
   "posted_urls": [
     "https://video.twimg.com/ext_tw_video/1863902879930843136/pu/vid/avc1/592x1280/34AwdfULdCf39gZZ.mp4",
     "https://video.twimg.com/ext_tw_video/1828040725080203264/pu/vid/avc1/612x1280/-O6li5FdckkXbGiY.mp4",
@@ -1094,23 +1094,14 @@
     "https://video.twimg.com/amplify_video/2009913313354752001/vid/avc1/624x360/uEFaVCuxtH-eKmHE.mp4?tag=21",
     "https://video.twimg.com/amplify_video/2009646851595894784/vid/avc1/1280x720/e6iH3On7GODOksAD.mp4?tag=21",
     "https://video.twimg.com/amplify_video/2009223797443072000/vid/avc1/1920x1078/fDzX9lcJjjocJXEK.mp4?tag=21",
-    "https://video.twimg.com/amplify_video/2009891813541416962/vid/avc1/1080x1920/mX_A5tQotsqcwnWB.mp4?tag=21"
+    "https://video.twimg.com/amplify_video/2009891813541416962/vid/avc1/1080x1920/mX_A5tQotsqcwnWB.mp4?tag=21",
+    "https://video.twimg.com/amplify_video/1784471499505836032/vid/avc1/1920x1080/YS4LjuyeLe3QYuzj.mp4?tag=16",
+    "https://video.twimg.com/amplify_video/1786638126347337728/vid/avc1/1920x1080/--wVn2J3aO19IF11.mp4?tag=16",
+    "https://video.twimg.com/amplify_video/1787054985894838272/vid/avc1/1920x1080/tscZZl2OOE9wEA48.mp4?tag=16"
   ],
   "last_post_date": "2026-01-10",
-  "posts_today": 13,
+  "posts_today": 14,
   "recent_urls_24h": [
-    {
-      "url": "https://video.twimg.com/amplify_video/1984509015544774656/vid/avc1/1080x1920/dFynqQ5vyoD9FmLb.mp4?tag=21",
-      "ts": "2026-01-09T23:47:28.293005+00:00"
-    },
-    {
-      "url": "https://video.twimg.com/amplify_video/1790017133692551169/vid/avc1/1280x720/8vw_K2C854zbjshL.mp4?tag=14",
-      "ts": "2026-01-09T23:47:28.293005+00:00"
-    },
-    {
-      "url": "https://video.twimg.com/amplify_video/2008207803002028033/vid/avc1/1920x1080/STx3RzAa5Qx8HoK8.mp4?tag=21",
-      "ts": "2026-01-09T23:47:28.293005+00:00"
-    },
     {
       "url": "https://video.twimg.com/ext_tw_video/2009548902140432385/pu/vid/avc1/480x600/4USPDpWj3_CpNcbT.mp4?tag=19",
       "ts": "2026-01-10T04:02:30.350394+00:00"
@@ -1218,7 +1209,19 @@
     {
       "url": "https://video.twimg.com/amplify_video/2009891813541416962/vid/avc1/1080x1920/mX_A5tQotsqcwnWB.mp4?tag=21",
       "ts": "2026-01-10T10:50:10.574762+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/amplify_video/1784471499505836032/vid/avc1/1920x1080/YS4LjuyeLe3QYuzj.mp4?tag=16",
+      "ts": "2026-01-10T12:38:53.736659+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/amplify_video/1786638126347337728/vid/avc1/1920x1080/--wVn2J3aO19IF11.mp4?tag=16",
+      "ts": "2026-01-10T12:38:53.736659+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/amplify_video/1787054985894838272/vid/avc1/1920x1080/tscZZl2OOE9wEA48.mp4?tag=16",
+      "ts": "2026-01-10T12:38:53.736659+00:00"
     }
   ],
-  "line_seq": 1123
+  "line_seq": 1126
 }
