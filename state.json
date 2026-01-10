@@ -1,6 +1,6 @@
 {
   "community_posts_today": 0,
-  "normal_posts_today": 1,
+  "normal_posts_today": 2,
   "posted_urls": [
     "https://video.twimg.com/ext_tw_video/1863902879930843136/pu/vid/avc1/592x1280/34AwdfULdCf39gZZ.mp4",
     "https://video.twimg.com/ext_tw_video/1828040725080203264/pu/vid/avc1/612x1280/-O6li5FdckkXbGiY.mp4",
@@ -1100,59 +1100,14 @@
     "https://video.twimg.com/amplify_video/1787054985894838272/vid/avc1/1920x1080/tscZZl2OOE9wEA48.mp4?tag=16",
     "https://video.twimg.com/amplify_video/2009936113386029056/vid/avc1/1280x720/MKCVGs-62vJK952j.mp4?tag=14",
     "https://video.twimg.com/amplify_video/1967438414451798016/vid/avc1/1280x720/CR3G7BvG3Y_wAqOK.mp4?tag=21",
-    "https://video.twimg.com/amplify_video/1766319070306263040/vid/avc1/1920x1080/UV4LvA0UxGkI2aYZ.mp4?tag=16"
+    "https://video.twimg.com/amplify_video/1766319070306263040/vid/avc1/1920x1080/UV4LvA0UxGkI2aYZ.mp4?tag=16",
+    "https://video.twimg.com/ext_tw_video/2010072928344293376/pu/vid/avc1/720x720/OtVBzu57OM6CUBRC.mp4?tag=12",
+    "https://video.twimg.com/ext_tw_video/2010072969456807936/pu/vid/avc1/368x368/RuyNgD2BXdpbVQhb.mp4?tag=12",
+    "https://video.twimg.com/ext_tw_video/2010072873218543616/pu/vid/avc1/320x240/Qsf3MnbFla3ftILq.mp4?tag=12"
   ],
   "last_post_date": "2026-01-11",
-  "posts_today": 1,
+  "posts_today": 2,
   "recent_urls_24h": [
-    {
-      "url": "https://video.twimg.com/amplify_video/2009846790716305411/vid/avc1/590x1280/1Rw4woE6PvdONNLj.mp4?tag=21",
-      "ts": "2026-01-10T05:00:39.008431+00:00"
-    },
-    {
-      "url": "https://video.twimg.com/amplify_video/2009841518060920832/vid/avc1/888x482/ADFW0CO7MANm4qFy.mp4?tag=21",
-      "ts": "2026-01-10T05:00:39.008431+00:00"
-    },
-    {
-      "url": "https://video.twimg.com/amplify_video/2009813892076273664/vid/avc1/720x1234/IQLKDBPpQKXWGMwj.mp4?tag=21",
-      "ts": "2026-01-10T05:00:39.008431+00:00"
-    },
-    {
-      "url": "https://gofile.io/d/Bf0Jxy",
-      "ts": "2026-01-10T05:52:37.503509+00:00"
-    },
-    {
-      "url": "https://gofile.io/d/zm4bGn",
-      "ts": "2026-01-10T05:52:37.503509+00:00"
-    },
-    {
-      "url": "https://gofile.io/d/qSQ4tU",
-      "ts": "2026-01-10T05:52:37.503509+00:00"
-    },
-    {
-      "url": "https://gofile.io/d/QAgu2i",
-      "ts": "2026-01-10T07:22:12.159650+00:00"
-    },
-    {
-      "url": "https://gofile.io/d/LBCuSO",
-      "ts": "2026-01-10T07:22:12.159650+00:00"
-    },
-    {
-      "url": "https://gofile.io/d/c2xe4a",
-      "ts": "2026-01-10T07:22:12.159650+00:00"
-    },
-    {
-      "url": "https://video.twimg.com/amplify_video/1794243796601085952/vid/avc1/1920x1080/zn5Y7rCHlcCFnwUx.mp4?tag=16",
-      "ts": "2026-01-10T08:42:22.082020+00:00"
-    },
-    {
-      "url": "https://video.twimg.com/amplify_video/1794600827992395776/vid/avc1/1920x1080/9RC6eiYkF3CTCxMU.mp4?tag=16",
-      "ts": "2026-01-10T08:42:22.082020+00:00"
-    },
-    {
-      "url": "https://video.twimg.com/amplify_video/1794978854681051137/vid/avc1/1920x1080/IFDn4SQ_4UNC8pvx.mp4?tag=16",
-      "ts": "2026-01-10T08:42:22.082020+00:00"
-    },
     {
       "url": "https://video.twimg.com/ext_tw_video/1273970226808446977/pu/vid/1280x720/TGBncr0jCPRI_hDy.mp4?tag=10",
       "ts": "2026-01-10T09:43:49.709789+00:00"
@@ -1200,7 +1155,19 @@
     {
       "url": "https://video.twimg.com/amplify_video/1766319070306263040/vid/avc1/1920x1080/UV4LvA0UxGkI2aYZ.mp4?tag=16",
       "ts": "2026-01-10T16:53:16.821860+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/ext_tw_video/2010072928344293376/pu/vid/avc1/720x720/OtVBzu57OM6CUBRC.mp4?tag=12",
+      "ts": "2026-01-10T21:10:50.001514+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/ext_tw_video/2010072969456807936/pu/vid/avc1/368x368/RuyNgD2BXdpbVQhb.mp4?tag=12",
+      "ts": "2026-01-10T21:10:50.001514+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/ext_tw_video/2010072873218543616/pu/vid/avc1/320x240/Qsf3MnbFla3ftILq.mp4?tag=12",
+      "ts": "2026-01-10T21:10:50.001514+00:00"
     }
   ],
-  "line_seq": 1129
+  "line_seq": 1132
 }
