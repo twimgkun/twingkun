@@ -1,6 +1,6 @@
 {
   "community_posts_today": 1,
-  "normal_posts_today": 9,
+  "normal_posts_today": 10,
   "posted_urls": [
     "https://video.twimg.com/ext_tw_video/1863902879930843136/pu/vid/avc1/592x1280/34AwdfULdCf39gZZ.mp4",
     "https://video.twimg.com/ext_tw_video/1828040725080203264/pu/vid/avc1/612x1280/-O6li5FdckkXbGiY.mp4",
@@ -1211,10 +1211,13 @@
     "https://video.twimg.com/amplify_video/2009389074386440195/vid/avc1/1280x720/UI2y9k14GkOalnrW.mp4?tag=21",
     "https://gofile.io/d/jfDuYq",
     "https://video.twimg.com/ext_tw_video/1817907051131252736/pu/vid/avc1/368x640/c8JuaZEEJUNeBg7r.mp4?tag=12",
-    "https://video.twimg.com/amplify_video/2009390681182359556/vid/avc1/1280x720/BNrr8_Q1FxWag7_9.mp4?tag=21"
+    "https://video.twimg.com/amplify_video/2009390681182359556/vid/avc1/1280x720/BNrr8_Q1FxWag7_9.mp4?tag=21",
+    "https://video.twimg.com/amplify_video/1986602269778022400/vid/avc1/1280x720/hAK9ylk32v92T-2Q.mp4?tag=21",
+    "https://video.twimg.com/amplify_video/1986598145439244296/vid/avc1/1280x720/N30_O9_mO6hKhrFY.mp4?tag=21",
+    "https://video.twimg.com/amplify_video/1986588983737077760/vid/avc1/1280x720/_aQ4LHkt7jKdIyDX.mp4?tag=21"
   ],
   "last_post_date": "2026-01-13",
-  "posts_today": 10,
+  "posts_today": 11,
   "recent_urls_24h": [
     {
       "url": "https://gofile.io/d/Y9OQTq",
@@ -1323,7 +1326,19 @@
     {
       "url": "https://video.twimg.com/amplify_video/2009390681182359556/vid/avc1/1280x720/BNrr8_Q1FxWag7_9.mp4?tag=21",
       "ts": "2026-01-13T07:27:32.487348+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/amplify_video/1986602269778022400/vid/avc1/1280x720/hAK9ylk32v92T-2Q.mp4?tag=21",
+      "ts": "2026-01-13T08:48:22.738744+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/amplify_video/1986598145439244296/vid/avc1/1280x720/N30_O9_mO6hKhrFY.mp4?tag=21",
+      "ts": "2026-01-13T08:48:22.738744+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/amplify_video/1986588983737077760/vid/avc1/1280x720/_aQ4LHkt7jKdIyDX.mp4?tag=21",
+      "ts": "2026-01-13T08:48:22.738744+00:00"
     }
   ],
-  "line_seq": 1240
+  "line_seq": 1243
 }
