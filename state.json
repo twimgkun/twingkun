@@ -1,6 +1,6 @@
 {
   "community_posts_today": 1,
-  "normal_posts_today": 7,
+  "normal_posts_today": 8,
   "posted_urls": [
     "https://video.twimg.com/ext_tw_video/1863902879930843136/pu/vid/avc1/592x1280/34AwdfULdCf39gZZ.mp4",
     "https://video.twimg.com/ext_tw_video/1828040725080203264/pu/vid/avc1/612x1280/-O6li5FdckkXbGiY.mp4",
@@ -1415,10 +1415,13 @@
     "https://video.twimg.com/amplify_video/2011785932706594816/vid/avc1/3840x2160/hBLynpFh_W1sWVmK.mp4?tag=21",
     "https://video.twimg.com/amplify_video/2011434650007433216/vid/avc1/3840x2160/0U-8GKX02GQVnJKe.mp4?tag=21",
     "https://video.twimg.com/amplify_video/2011695316333182977/vid/avc1/1280x720/soeR39GvG-5Fv0-g.mp4?tag=21",
-    "https://video.twimg.com/amplify_video/2010346553425432576/vid/avc1/1280x720/4PLgx_LwhI4dXKkA.mp4?tag=21"
+    "https://video.twimg.com/amplify_video/2010346553425432576/vid/avc1/1280x720/4PLgx_LwhI4dXKkA.mp4?tag=21",
+    "https://video.twimg.com/amplify_video/2011802747511910401/vid/avc1/1280x720/Elae4p0TiDXU6g3W.mp4?tag=21",
+    "https://video.twimg.com/amplify_video/2011444475420360704/vid/avc1/1280x720/NA32vYlB0FpGzCRd.mp4?tag=21",
+    "https://video.twimg.com/amplify_video/2010718291636195329/vid/avc1/1280x720/wcPLPVqfCxV4lQAV.mp4?tag=21"
   ],
   "last_post_date": "2026-01-18",
-  "posts_today": 8,
+  "posts_today": 9,
   "recent_urls_24h": [
     {
       "url": "https://gofile.io/d/hjE4dC",
@@ -1503,7 +1506,19 @@
     {
       "url": "https://video.twimg.com/amplify_video/2010346553425432576/vid/avc1/1280x720/4PLgx_LwhI4dXKkA.mp4?tag=21",
       "ts": "2026-01-18T04:55:58.497795+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/amplify_video/2011802747511910401/vid/avc1/1280x720/Elae4p0TiDXU6g3W.mp4?tag=21",
+      "ts": "2026-01-18T05:52:05.630989+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/amplify_video/2011444475420360704/vid/avc1/1280x720/NA32vYlB0FpGzCRd.mp4?tag=21",
+      "ts": "2026-01-18T05:52:05.630989+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/amplify_video/2010718291636195329/vid/avc1/1280x720/wcPLPVqfCxV4lQAV.mp4?tag=21",
+      "ts": "2026-01-18T05:52:05.630989+00:00"
     }
   ],
-  "line_seq": 1444
+  "line_seq": 1447
 }
