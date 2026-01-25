@@ -1,6 +1,6 @@
 {
   "community_posts_today": 1,
-  "normal_posts_today": 3,
+  "normal_posts_today": 4,
   "posted_urls": [
     "https://video.twimg.com/ext_tw_video/1863902879930843136/pu/vid/avc1/592x1280/34AwdfULdCf39gZZ.mp4",
     "https://video.twimg.com/ext_tw_video/1828040725080203264/pu/vid/avc1/612x1280/-O6li5FdckkXbGiY.mp4",
@@ -1697,23 +1697,14 @@
     "https://video.twimg.com/amplify_video/1971929700672192512/vid/avc1/1920x1080/n8F1uTQdbJnvkgIO.mp4?tag=21",
     "https://gofile.io/d/0I9kbZ",
     "https://video.twimg.com/amplify_video/2013226541266665472/vid/avc1/1280x720/LiDe8zpXgOZWKbtk.mp4?tag=14",
-    "https://video.twimg.com/amplify_video/1971596064060030976/vid/avc1/1920x1080/Pzw8XJWegMPYCnFl.mp4?tag=21"
+    "https://video.twimg.com/amplify_video/1971596064060030976/vid/avc1/1920x1080/Pzw8XJWegMPYCnFl.mp4?tag=21",
+    "https://gofile.io/d/MCroAN",
+    "https://gofile.io/d/RbBV77",
+    "https://gofile.io/d/1rDeE1"
   ],
   "last_post_date": "2026-01-25",
-  "posts_today": 4,
+  "posts_today": 5,
   "recent_urls_24h": [
-    {
-      "url": "https://gofile.io/d/opQsqU",
-      "ts": "2026-01-24T16:54:17.961672+00:00"
-    },
-    {
-      "url": "https://video.twimg.com/ext_tw_video/2015011904721223681/pu/vid/avc1/640x432/FOpyf7gBllE_x_QM.mp4?tag=12",
-      "ts": "2026-01-24T16:54:17.961672+00:00"
-    },
-    {
-      "url": "https://video.twimg.com/amplify_video/2015040244329091073/vid/avc1/720x1280/ZsyMNoAl-r726E6M.mp4?tag=21",
-      "ts": "2026-01-24T16:54:17.961672+00:00"
-    },
     {
       "url": "https://gofile.io/d/uv1MKc",
       "ts": "2026-01-24T23:39:20.971459+00:00"
@@ -1749,7 +1740,19 @@
     {
       "url": "https://video.twimg.com/amplify_video/1971596064060030976/vid/avc1/1920x1080/Pzw8XJWegMPYCnFl.mp4?tag=21",
       "ts": "2026-01-25T04:22:02.624814+00:00"
+    },
+    {
+      "url": "https://gofile.io/d/MCroAN",
+      "ts": "2026-01-25T05:04:27.254952+00:00"
+    },
+    {
+      "url": "https://gofile.io/d/RbBV77",
+      "ts": "2026-01-25T05:04:27.254952+00:00"
+    },
+    {
+      "url": "https://gofile.io/d/1rDeE1",
+      "ts": "2026-01-25T05:04:27.254952+00:00"
     }
   ],
-  "line_seq": 1726
+  "line_seq": 1729
 }
