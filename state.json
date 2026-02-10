@@ -1,6 +1,6 @@
 {
-  "community_posts_today": 3,
-  "normal_posts_today": 13,
+  "community_posts_today": 0,
+  "normal_posts_today": 1,
   "posted_urls": [
     "https://video.twimg.com/ext_tw_video/1863902879930843136/pu/vid/avc1/592x1280/34AwdfULdCf39gZZ.mp4",
     "https://video.twimg.com/ext_tw_video/1828040725080203264/pu/vid/avc1/612x1280/-O6li5FdckkXbGiY.mp4",
@@ -2432,10 +2432,13 @@
     "https://video.twimg.com/amplify_video/2016788029357318144/vid/avc1/1920x1080/K9QrS4gWCHwgQEJj.mp4?tag=21",
     "https://gofile.io/d/qIfeNX",
     "https://video.twimg.com/amplify_video/2015672508763029504/vid/avc1/1440x2560/CK4kn5D_DbEbSLbD.mp4?tag=21",
-    "https://video.twimg.com/amplify_video/2016797653460189184/vid/avc1/1920x1080/0RGAjUOqgko_JZ-3.mp4?tag=21"
+    "https://video.twimg.com/amplify_video/2016797653460189184/vid/avc1/1920x1080/0RGAjUOqgko_JZ-3.mp4?tag=21",
+    "https://gofile.io/d/bHAZN6",
+    "https://video.twimg.com/ext_tw_video/1633066063230537728/pu/vid/720x1280/DlFzfEbWrRUFyEFs.mp4?tag=12",
+    "https://video.twimg.com/ext_tw_video/1640628555318181888/pu/vid/720x1280/UY8zYpr6ODnKgpMK.mp4?tag=12"
   ],
-  "last_post_date": "2026-02-10",
-  "posts_today": 16,
+  "last_post_date": "2026-02-11",
+  "posts_today": 1,
   "recent_urls_24h": [
     {
       "url": "https://video.twimg.com/amplify_video/2020819547016810496/vid/avc1/720x740/25gnM7dHAIg_xfxU.mp4?tag=14",
@@ -2568,7 +2571,19 @@
     {
       "url": "https://video.twimg.com/amplify_video/2016797653460189184/vid/avc1/1920x1080/0RGAjUOqgko_JZ-3.mp4?tag=21",
       "ts": "2026-02-10T14:37:42.705598+00:00"
+    },
+    {
+      "url": "https://gofile.io/d/bHAZN6",
+      "ts": "2026-02-10T15:39:49.156690+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/ext_tw_video/1633066063230537728/pu/vid/720x1280/DlFzfEbWrRUFyEFs.mp4?tag=12",
+      "ts": "2026-02-10T15:39:49.156690+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/ext_tw_video/1640628555318181888/pu/vid/720x1280/UY8zYpr6ODnKgpMK.mp4?tag=12",
+      "ts": "2026-02-10T15:39:49.156690+00:00"
     }
   ],
-  "line_seq": 2461
+  "line_seq": 2464
 }
