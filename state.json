@@ -1,5 +1,5 @@
 {
-  "community_posts_today": 1,
+  "community_posts_today": 2,
   "normal_posts_today": 8,
   "posted_urls": [
     "https://video.twimg.com/ext_tw_video/1863902879930843136/pu/vid/avc1/592x1280/34AwdfULdCf39gZZ.mp4",
@@ -2714,10 +2714,13 @@
     "https://video.twimg.com/amplify_video/2012137384679522304/vid/avc1/720x1280/1gmHkqdIjCz3mOMW.mp4?tag=14",
     "https://video.twimg.com/amplify_video/2012510901220315137/vid/avc1/720x1258/6rtyqbrunfmng8Wy.mp4?tag=14",
     "https://video.twimg.com/amplify_video/2002943105516150784/vid/avc1/720x1280/XiAH44ff5yGStCp0.mp4?tag=21",
-    "https://video.twimg.com/amplify_video/2015046440591265792/vid/avc1/720x1218/4WktJ8hhTQvssI8t.mp4?tag=14"
+    "https://video.twimg.com/amplify_video/2015046440591265792/vid/avc1/720x1218/4WktJ8hhTQvssI8t.mp4?tag=14",
+    "https://video.twimg.com/amplify_video/2016494953493680128/vid/avc1/720x1278/4Hao1EgPRsL-CfPG.mp4?tag=14",
+    "https://video.twimg.com/amplify_video/2019386340824272896/vid/avc1/720x1310/d2a1W2ipMM3jOf9A.mp4?tag=14",
+    "https://video.twimg.com/amplify_video/2023280868748652544/vid/avc1/720x1280/gBZZ1Zw33tAVHmtm.mp4?tag=21"
   ],
   "last_post_date": "2026-02-17",
-  "posts_today": 9,
+  "posts_today": 10,
   "recent_urls_24h": [
     {
       "url": "https://video.twimg.com/amplify_video/2022373010951540736/vid/avc1/640x352/7SwOuU2k3BnP3ZQ_.mp4?tag=14",
@@ -2802,7 +2805,19 @@
     {
       "url": "https://video.twimg.com/amplify_video/2015046440591265792/vid/avc1/720x1218/4WktJ8hhTQvssI8t.mp4?tag=14",
       "ts": "2026-02-17T05:40:42.504059+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/amplify_video/2016494953493680128/vid/avc1/720x1278/4Hao1EgPRsL-CfPG.mp4?tag=14",
+      "ts": "2026-02-17T06:36:56.317023+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/amplify_video/2019386340824272896/vid/avc1/720x1310/d2a1W2ipMM3jOf9A.mp4?tag=14",
+      "ts": "2026-02-17T06:36:56.317023+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/amplify_video/2023280868748652544/vid/avc1/720x1280/gBZZ1Zw33tAVHmtm.mp4?tag=21",
+      "ts": "2026-02-17T06:36:56.317023+00:00"
     }
   ],
-  "line_seq": 2743
+  "line_seq": 2746
 }
