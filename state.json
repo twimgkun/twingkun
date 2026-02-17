@@ -1,6 +1,6 @@
 {
   "community_posts_today": 3,
-  "normal_posts_today": 12,
+  "normal_posts_today": 13,
   "posted_urls": [
     "https://video.twimg.com/ext_tw_video/1863902879930843136/pu/vid/avc1/592x1280/34AwdfULdCf39gZZ.mp4",
     "https://video.twimg.com/ext_tw_video/1828040725080203264/pu/vid/avc1/612x1280/-O6li5FdckkXbGiY.mp4",
@@ -2732,10 +2732,13 @@
     "https://video.twimg.com/amplify_video/2018276440329105408/vid/avc1/720x960/qK_0QpwLr0BLmiyu.mp4?tag=21",
     "https://gofile.io/d/YI3krY",
     "https://video.twimg.com/amplify_video/2023091583546236929/vid/avc1/720x1280/kCVaMy0Gtz-coFLt.mp4?tag=21",
-    "https://video.twimg.com/amplify_video/2022305339845287937/vid/avc1/1280x720/IaQuYEmIpM5eKQ07.mp4?tag=21"
+    "https://video.twimg.com/amplify_video/2022305339845287937/vid/avc1/1280x720/IaQuYEmIpM5eKQ07.mp4?tag=21",
+    "https://gofile.io/d/B0CpUW",
+    "https://video.twimg.com/amplify_video/2022596105150631936/vid/avc1/1280x720/5peJOJnWSH17-Z4J.mp4?tag=21",
+    "https://video.twimg.com/amplify_video/2022610727144652800/vid/avc1/1280x720/87MRrzlBQEsqKeR0.mp4?tag=21"
   ],
   "last_post_date": "2026-02-17",
-  "posts_today": 15,
+  "posts_today": 16,
   "recent_urls_24h": [
     {
       "url": "https://video.twimg.com/amplify_video/2022880881116168192/vid/avc1/1920x1080/1fy_WKOXtshQpaDi.mp4?tag=21",
@@ -2856,7 +2859,19 @@
     {
       "url": "https://video.twimg.com/amplify_video/2022305339845287937/vid/avc1/1280x720/IaQuYEmIpM5eKQ07.mp4?tag=21",
       "ts": "2026-02-17T13:02:03.401711+00:00"
+    },
+    {
+      "url": "https://gofile.io/d/B0CpUW",
+      "ts": "2026-02-17T14:12:15.730073+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/amplify_video/2022596105150631936/vid/avc1/1280x720/5peJOJnWSH17-Z4J.mp4?tag=21",
+      "ts": "2026-02-17T14:12:15.730073+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/amplify_video/2022610727144652800/vid/avc1/1280x720/87MRrzlBQEsqKeR0.mp4?tag=21",
+      "ts": "2026-02-17T14:12:15.730073+00:00"
     }
   ],
-  "line_seq": 2761
+  "line_seq": 2764
 }
