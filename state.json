@@ -1,6 +1,6 @@
 {
   "community_posts_today": 2,
-  "normal_posts_today": 7,
+  "normal_posts_today": 8,
   "posted_urls": [
     "https://video.twimg.com/ext_tw_video/1863902879930843136/pu/vid/avc1/592x1280/34AwdfULdCf39gZZ.mp4",
     "https://video.twimg.com/ext_tw_video/1828040725080203264/pu/vid/avc1/612x1280/-O6li5FdckkXbGiY.mp4",
@@ -2996,10 +2996,13 @@
     "https://video.twimg.com/amplify_video/2025251165152444418/vid/avc1/1280x720/SZBHRNacHxMrSHDy.mp4?tag=21",
     "https://video.twimg.com/amplify_video/2025569176681582592/vid/avc1/1080x1920/4HqNoPqnvAgiMeuq.mp4?tag=21",
     "https://video.twimg.com/amplify_video/2025251164053536770/vid/avc1/1280x720/XzdEPlRTyPK-ad4i.mp4?tag=21",
-    "https://video.twimg.com/amplify_video/2020907140823777283/vid/avc1/1280x720/k33Rwy8_VJ2X_1rl.mp4?tag=21"
+    "https://video.twimg.com/amplify_video/2020907140823777283/vid/avc1/1280x720/k33Rwy8_VJ2X_1rl.mp4?tag=21",
+    "https://video.twimg.com/amplify_video/2025546183662538752/vid/avc1/1280x720/pbMAlwS00ROYwzVB.mp4?tag=21",
+    "https://video.twimg.com/amplify_video/2020907140496646144/vid/avc1/1280x720/aPaRcY3e8ol8tAQE.mp4?tag=21",
+    "https://video.twimg.com/amplify_video/2025617551452176384/vid/avc1/1280x720/-LmNplk8pUBeSrbd.mp4?tag=21"
   ],
   "last_post_date": "2026-02-23",
-  "posts_today": 9,
+  "posts_today": 10,
   "recent_urls_24h": [
     {
       "url": "https://gofile.io/d/BVqSEd",
@@ -3096,7 +3099,19 @@
     {
       "url": "https://video.twimg.com/amplify_video/2020907140823777283/vid/avc1/1280x720/k33Rwy8_VJ2X_1rl.mp4?tag=21",
       "ts": "2026-02-23T06:44:59.891827+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/amplify_video/2025546183662538752/vid/avc1/1280x720/pbMAlwS00ROYwzVB.mp4?tag=21",
+      "ts": "2026-02-23T07:56:58.993869+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/amplify_video/2020907140496646144/vid/avc1/1280x720/aPaRcY3e8ol8tAQE.mp4?tag=21",
+      "ts": "2026-02-23T07:56:58.993869+00:00"
+    },
+    {
+      "url": "https://video.twimg.com/amplify_video/2025617551452176384/vid/avc1/1280x720/-LmNplk8pUBeSrbd.mp4?tag=21",
+      "ts": "2026-02-23T07:56:58.993869+00:00"
     }
   ],
-  "line_seq": 3025
+  "line_seq": 3028
 }
