@@ -1,6 +1,6 @@
 {
   "community_posts_today": 0,
-  "normal_posts_today": 1,
+  "normal_posts_today": 2,
   "posted_urls": [
     "https://video.twimg.com/ext_tw_video/1863902879930843136/pu/vid/avc1/592x1280/34AwdfULdCf39gZZ.mp4",
     "https://video.twimg.com/ext_tw_video/1828040725080203264/pu/vid/avc1/612x1280/-O6li5FdckkXbGiY.mp4",
@@ -3239,71 +3239,14 @@
     "https://video.twimg.com/amplify_video/1802220737396441088/vid/avc1/1280x720/fropb1nohvy2wtvp.mp4?tag=14",
     "https://gofile.io/d/LYFvqO",
     "https://gofile.io/d/lPSv2x",
-    "https://gofile.io/d/KbyM9n"
+    "https://gofile.io/d/KbyM9n",
+    "https://gofile.io/d/rEW0IO",
+    "https://gofile.io/d/5NNwMN",
+    "https://gofile.io/d/HpBj4z"
   ],
   "last_post_date": "2026-03-01",
-  "posts_today": 1,
+  "posts_today": 2,
   "recent_urls_24h": [
-    {
-      "url": "https://video.twimg.com/amplify_video/2025895772982775808/vid/avc1/720x720/nNONWafu121FmUdK.mp4?tag=21",
-      "ts": "2026-02-28T05:07:31.156512+00:00"
-    },
-    {
-      "url": "https://video.twimg.com/amplify_video/2025893160854163456/vid/avc1/720x720/-RQJCLBqWw_rNi3X.mp4?tag=21",
-      "ts": "2026-02-28T05:07:31.156512+00:00"
-    },
-    {
-      "url": "https://video.twimg.com/amplify_video/2025892906104713216/vid/avc1/720x720/oKdnEYAT_RVahUgF.mp4?tag=21",
-      "ts": "2026-02-28T05:07:31.156512+00:00"
-    },
-    {
-      "url": "https://video.twimg.com/amplify_video/2025893012568723456/vid/avc1/720x720/QmWCEfOUZEbj9Bld.mp4?tag=21",
-      "ts": "2026-02-28T05:59:18.676122+00:00"
-    },
-    {
-      "url": "https://video.twimg.com/amplify_video/2025890318206603264/vid/avc1/720x720/nlHvsuBJ3Wg8LIBg.mp4?tag=21",
-      "ts": "2026-02-28T05:59:18.676122+00:00"
-    },
-    {
-      "url": "https://video.twimg.com/amplify_video/2025890317434802176/vid/avc1/720x720/H8w6iysGly0w6jhN.mp4?tag=21",
-      "ts": "2026-02-28T05:59:18.676122+00:00"
-    },
-    {
-      "url": "https://video.twimg.com/amplify_video/2027349046235643904/vid/avc1/1280x720/tSYZgkpeOiqJ_DgH.mp4?tag=21",
-      "ts": "2026-02-28T07:29:39.550668+00:00"
-    },
-    {
-      "url": "https://video.twimg.com/ext_tw_video/1826213132944990208/pu/vid/avc1/720x720/z4sb9lELfjorHKs6.mp4?tag=12",
-      "ts": "2026-02-28T07:29:39.550668+00:00"
-    },
-    {
-      "url": "https://video.twimg.com/ext_tw_video/1830606289300525056/pu/vid/avc1/720x900/C6-JAKvUyYN9jvTJ.mp4?tag=12",
-      "ts": "2026-02-28T07:29:39.550668+00:00"
-    },
-    {
-      "url": "https://gofile.io/d/usCRnH",
-      "ts": "2026-02-28T08:45:18.108405+00:00"
-    },
-    {
-      "url": "https://gofile.io/d/jduxR0",
-      "ts": "2026-02-28T08:45:18.108405+00:00"
-    },
-    {
-      "url": "https://video.twimg.com/amplify_video/2027253935006765056/vid/avc1/320x568/_1B56VaYIlDq7uSG.mp4?tag=21",
-      "ts": "2026-02-28T08:45:18.108405+00:00"
-    },
-    {
-      "url": "https://video.twimg.com/amplify_video/2025765797151526912/vid/avc1/720x1206/Du-es1mKD-sSemxD.mp4?tag=14",
-      "ts": "2026-02-28T09:49:06.754254+00:00"
-    },
-    {
-      "url": "https://video.twimg.com/ext_tw_video/1942780763289837570/pu/vid/avc1/1280x720/H8J5noe0NLPOjSsw.mp4?tag=12",
-      "ts": "2026-02-28T09:49:06.754254+00:00"
-    },
-    {
-      "url": "https://video.twimg.com/ext_tw_video/1842823883596103680/pu/vid/avc1/1080x720/i-xrEolgbaomlBsf.mp4?tag=12",
-      "ts": "2026-02-28T09:49:06.754254+00:00"
-    },
     {
       "url": "https://video.twimg.com/ext_tw_video/1878072843986173952/pu/vid/avc1/720x900/I8fevYGgw7yvb58J.mp4?tag=12",
       "ts": "2026-02-28T10:54:00.305985+00:00"
@@ -3351,7 +3294,19 @@
     {
       "url": "https://gofile.io/d/KbyM9n",
       "ts": "2026-02-28T16:54:57.988249+00:00"
+    },
+    {
+      "url": "https://gofile.io/d/rEW0IO",
+      "ts": "2026-02-28T22:41:51.260623+00:00"
+    },
+    {
+      "url": "https://gofile.io/d/5NNwMN",
+      "ts": "2026-02-28T22:41:51.260623+00:00"
+    },
+    {
+      "url": "https://gofile.io/d/HpBj4z",
+      "ts": "2026-02-28T22:41:51.260623+00:00"
     }
   ],
-  "line_seq": 3268
+  "line_seq": 3271
 }
